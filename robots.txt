@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Disallow: /_backup/
+
+Sitemap: https://aipavlenko.ru/sitemap.xml

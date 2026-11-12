@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ИИ-баннеры: примеры работ | Pavlenko Design</title>
+<meta name="description" content="Вписываю товар в нужный фон с помощью ИИ и собираю баннер в фирменном стиле: под нестандартный размер вашего сайта, для креативов контекстной рекламы (РСЯ), соцсетей или цифровых билбордов Wildberries.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a1623">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Pavlenko Design">
+<meta property="og:title" content="ИИ-баннеры | Pavlenko Design">
+<meta property="og:description" content="Вписываю товар в нужный фон с помощью ИИ и собираю баннер в фирменном стиле: под нестандартный размер вашего сайта, для креативов контекстной рекламы (РСЯ), соцсетей или цифровых билбордов Wildberries.">
+<link rel="canonical" href="https://aipavlenko.ru/works/ai-banners.html">
+<meta property="og:url" content="https://aipavlenko.ru/works/ai-banners.html">
+<meta property="og:image" content="https://aipavlenko.ru/img/site/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="../favicon-64.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../css/site.css?v=7">
+<style>
+
+.pr-cover{position:relative;min-width:0}
+.pr-cover .lg-n{opacity:1;transform:none}
+.pr-cover .b-cover img{transition:opacity .25s,transform 1s var(--ease)}
+.pr-cover .b-cover.swap img{opacity:0}
+.pr-arr{position:absolute;z-index:3;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;padding:0 0 3px;
+  border:1px solid #ffffff40;background:#0f0c15a6;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#fff;font-size:22px;line-height:1;
+  display:grid;place-items:center;cursor:pointer;transition:background .3s,border-color .3s,color .3s}
+.pr-prev{left:12px}.pr-next{right:12px}
+.pr-arr:hover{background:var(--brand-orange);border-color:var(--brand-orange);color:#17131f}
+.pr-arr:focus-visible{outline:3px solid var(--brand-orange);outline-offset:2px}
+@media (max-width:600px){.pr-arr{width:36px;height:36px;font-size:19px}.pr-prev{left:8px}.pr-next{right:8px}}
+</style>
+<style>
+.ab-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,4vw,72px);align-items:center;margin-top:clamp(14px,1.6vw,22px)}
+.ab-hero .cp-h2{margin:0}
+.ab-lead{margin-top:clamp(14px,1.4vw,22px);color:var(--ink,#1a1623);font-size:clamp(1.1rem,1.45vw,1.4rem);line-height:1.45;font-weight:400;max-width:34ch}
+.ab-what{position:relative;padding:clamp(20px,2vw,30px);border-radius:24px;background:#fff;border:1px solid #1a162314;box-shadow:0 30px 60px -40px #1a162359}
+.ab-what::before{content:"";position:absolute;left:0;top:clamp(20px,2vw,30px);bottom:clamp(20px,2vw,30px);width:3px;border-radius:3px;background:var(--brand-orange)}
+.ab-what-k{display:block;margin-bottom:10px;font-size:.74rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--brand-purple)}
+.ab-what-k2{margin:18px 0 10px}
+.ab-what p{color:var(--ink-soft,#4a4558);font-size:clamp(.95rem,1.02vw,1.02rem);line-height:1.6}
+.ab-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.ab-tags li{padding:7px 13px;border-radius:999px;background:#f3eff9;border:1px solid #a259ff2e;color:var(--ink,#1a1623);font-size:.85rem;font-weight:500}
+@media (max-width:900px){.ab-hero{grid-template-columns:1fr;align-items:start}.ab-lead{max-width:none}}
+</style>
+
+<style>
+
+.ab{--abh:clamp(300px,34vw,500px);--gap:clamp(12px,1.2vw,20px);min-width:0;max-width:100%}
+.cp-works .cp-in{min-width:0}
+.ab-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:clamp(14px,1.4vw,22px)}
+.ab-nav{display:flex;align-items:center;gap:8px}
+.ab-count{min-width:56px;text-align:right;margin-right:6px;color:var(--text-soft);font-size:.9rem;font-variant-numeric:tabular-nums}
+.ab-strip{min-width:0;width:100%;display:flex;gap:var(--gap);overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:2px;align-items:flex-start}
+.ab-strip::-webkit-scrollbar{display:none}
+.ab-slide{flex:0 0 auto;margin:0;scroll-snap-align:start;width:min(calc(var(--abh) * (var(--ar))),100%)}
+.ab-card.ps-card{display:block;width:100%;height:auto;aspect-ratio:var(--ar);max-height:var(--abh);flex:none;border-radius:16px;background:#0f0c15}
+.ab-card.ps-card img{object-fit:contain}
+.ab-slide figcaption{display:flex;flex-direction:column;gap:3px;padding:12px 4px 0}
+.ab-slide figcaption b{color:#fff;font-size:1rem;font-weight:700}
+.ab-slide figcaption span{color:var(--text-soft);font-size:.86rem}
+@media (max-width:700px){.ab{--abh:300px}.ab-nav .ps-btn{width:38px;height:38px;font-size:20px}.ab-slide{width:min(calc(var(--abh) * (var(--ar))),80%)}}
+</style>
+</head>
+<body class="case-page theme-light">
+
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <a href="../index.html#home" class="logo" aria-label="На главную">
+      <img class="logo-mark" src="../img/site/logo-mark.webp" width="148" height="128" alt="">
+      <img class="logo-word" src="../img/site/logo-word.webp" width="757" height="40" alt="Ekaterina Pavlenko">
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="../index.html#home">Главная</a>
+      <a href="../index.html#works">Портфолио</a>
+      <a href="../index.html#services">Услуги</a>
+      <a href="../index.html#about">Обо мне</a>
+      <a href="../index.html#price">Прайс</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contacts">Контакты</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="mnav"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<nav class="mnav" id="mnav" aria-label="Мобильная навигация">
+  <div class="mnav-group">
+    <a href="../index.html#home">Главная</a>
+    <a href="../index.html#works">Портфолио</a>
+    <a href="../index.html#services">Услуги</a>
+    <a href="../index.html#about">Обо мне</a>
+    <a href="../index.html#price">Прайс</a>
+    <a href="../index.html#faq">FAQ</a>
+    <a href="../index.html#contacts">Контакты</a>
+    <a href="../index.html#contacts" class="m-cta">Обсудить проект</a>
+  </div>
+</nav>
+
+<main>
+
+<section class="cp-sec cp-works" id="examples">
+  <div class="cp-in">
+    <div class="cp-top h-in">
+      <a class="cp-back-btn" href="../index.html#works"><span aria-hidden="true">←</span> Назад</a>
+      <div class="ab-hero">
+        <div class="ab-hero-l">
+          <h1 class="cp-h2">ИИ-баннеры</h1>
+          <p class="ab-lead">Вписываю товар в нужный фон с помощью ИИ и собираю баннер в фирменном стиле: под нестандартный размер вашего сайта, для креативов контекстной рекламы (РСЯ), соцсетей или цифровых билбордов Wildberries.</p>
+        </div>
+        <aside class="ab-what">
+          <span class="ab-what-k">Что такое ИИ-баннер</span>
+          <p>Рекламный баннер, в котором ваш товар органично встроен в сцену: интерьер, природу, студийный фон или сезонный сюжет. Оформляю его в фирменном стиле компании, при необходимости добавляю инфографику и делаю точно под нужный размер: горизонтальный, вертикальный или нестандартный, под конкретный блок на сайте.</p>
+          <span class="ab-what-k ab-what-k2">Адаптирую под</span>
+          <ul class="ab-tags">
+            <li>Блоки сайта</li><li>Креативы для контекстной рекламы (РСЯ)</li><li>Соцсети</li><li>Карточки маркетплейсов</li><li>Цифровые билборды Wildberries</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <div class="ps ab" data-a>
+      <div class="ab-head">
+        <span class="b-strip-t">Баннеры</span>
+        <div class="ab-nav"><span class="ab-count" aria-live="polite"></span><button class="ps-btn ab-prev" type="button" aria-label="Назад">‹</button><button class="ps-btn ab-next" type="button" aria-label="Вперёд">›</button></div>
+      </div>
+      <div class="ab-strip">
+        <figure class="ab-slide" style="--ar:1282/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-06.webp" aria-label="Открыть крупно: Большая стройка"><img src="../img/works/ai-banners/site-ki-06.webp" alt="Баннер на сайт «Кубань Инструмент»: Большая стройка" width="1282" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Большая стройка · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:742/928"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-03.webp" aria-label="Открыть крупно: Товар месяца: перфоратор DongCheng"><img src="../img/works/ai-banners/site-ki-03.webp" alt="Баннер на сайт «Кубань Инструмент»: Товар месяца: перфоратор DongCheng" width="742" height="928" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Товар месяца: перфоратор DongCheng · баннер на сайт, вертикальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:1282/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-07.webp" aria-label="Открыть крупно: Умный AI-бот"><img src="../img/works/ai-banners/site-ki-07.webp" alt="Баннер на сайт «Кубань Инструмент»: Умный AI-бот" width="1282" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Умный AI-бот · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:743/929"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-05.webp" aria-label="Открыть крупно: Товар месяца: дрель-шуруповёрт DeWalt"><img src="../img/works/ai-banners/site-ki-05.webp" alt="Баннер на сайт «Кубань Инструмент»: Товар месяца: дрель-шуруповёрт DeWalt" width="743" height="929" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Товар месяца: дрель-шуруповёрт DeWalt · баннер на сайт, вертикальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:1282/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-08.webp" aria-label="Открыть крупно: Сделай газон идеальным"><img src="../img/works/ai-banners/site-ki-08.webp" alt="Баннер на сайт «Кубань Инструмент»: Сделай газон идеальным" width="1282" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Сделай газон идеальным · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:745/929"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-01.webp" aria-label="Открыть крупно: Подарочные карты «Подарки с характером»"><img src="../img/works/ai-banners/site-ki-01.webp" alt="Баннер на сайт «Кубань Инструмент»: Подарочные карты «Подарки с характером»" width="745" height="929" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Подарочные карты «Подарки с характером» · баннер на сайт, вертикальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:1281/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-09.webp" aria-label="Открыть крупно: Садовая техника SENIX"><img src="../img/works/ai-banners/site-ki-09.webp" alt="Баннер на сайт «Кубань Инструмент»: Садовая техника SENIX" width="1281" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Садовая техника SENIX · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:742/929"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-04.webp" aria-label="Открыть крупно: Сварочный полуавтомат SNIRREX"><img src="../img/works/ai-banners/site-ki-04.webp" alt="Баннер на сайт «Кубань Инструмент»: Сварочный полуавтомат SNIRREX" width="742" height="929" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Сварочный полуавтомат SNIRREX · баннер на сайт, вертикальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:1281/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-10.webp" aria-label="Открыть крупно: Пилы и сучкорезы"><img src="../img/works/ai-banners/site-ki-10.webp" alt="Баннер на сайт «Кубань Инструмент»: Пилы и сучкорезы" width="1281" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Пилы и сучкорезы · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:744/929"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-02.webp" aria-label="Открыть крупно: Характеристики перфоратора"><img src="../img/works/ai-banners/site-ki-02.webp" alt="Баннер на сайт «Кубань Инструмент»: Характеристики перфоратора" width="744" height="929" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Характеристики перфоратора · баннер на сайт, вертикальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:1282/628"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/site-ki-11.webp" aria-label="Открыть крупно: Чистота без компромиссов"><img src="../img/works/ai-banners/site-ki-11.webp" alt="Баннер на сайт «Кубань Инструмент»: Чистота без компромиссов" width="1282" height="628" loading="lazy" decoding="async"></button>
+          <figcaption><b>Кубань Инструмент</b><span>Чистота без компромиссов · баннер на сайт, горизонтальный</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:2/1"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/wb-librerosemary.webp" aria-label="Открыть крупно: LIBREROSEMARY"><img src="../img/works/ai-banners/wb-librerosemary.webp" alt="Цифровой билборд Wildberries для бренда LIBREROSEMARY: шампунь и масло для волос" width="1440" height="720" loading="lazy" decoding="async"></button>
+          <figcaption><b>LIBREROSEMARY</b><span>Шампунь и масло для волос · цифровой билборд Wildberries · 1440 × 720</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:2/1"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/wb-pickup.webp" aria-label="Открыть крупно: Pickup"><img src="../img/works/ai-banners/wb-pickup.webp" alt="Цифровой билборд Wildberries для бренда Pickup: верхняя одежда" width="1440" height="720" loading="lazy" decoding="async"></button>
+          <figcaption><b>Pickup</b><span>Верхняя одежда · цифровой билборд Wildberries · 1440 × 720</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:2/1"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/wb-onstyle.webp" aria-label="Открыть крупно: ON STYLE"><img src="../img/works/ai-banners/wb-onstyle.webp" alt="Цифровой билборд Wildberries для бренда ON STYLE: женская одежда" width="1440" height="720" loading="lazy" decoding="async"></button>
+          <figcaption><b>ON STYLE</b><span>Женская одежда · цифровой билборд Wildberries · 1440 × 720</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:2/1"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/wb-tizini.webp" aria-label="Открыть крупно: TIZINI"><img src="../img/works/ai-banners/wb-tizini.webp" alt="Цифровой билборд Wildberries для бренда TIZINI: женская одежда" width="1440" height="720" loading="lazy" decoding="async"></button>
+          <figcaption><b>TIZINI</b><span>Женская одежда · цифровой билборд Wildberries · 1440 × 720</span></figcaption></figure>
+        <figure class="ab-slide" style="--ar:2/1"><button class="ps-card ab-card" type="button" data-full="../img/works/ai-banners/wb-rokakids.webp" aria-label="Открыть крупно: ROKAKIDS"><img src="../img/works/ai-banners/wb-rokakids.webp" alt="Цифровой билборд Wildberries для бренда ROKAKIDS: одежда для новорождённых" width="1440" height="720" loading="lazy" decoding="async"></button>
+          <figcaption><b>ROKAKIDS</b><span>Одежда для новорождённых · цифровой билборд Wildberries · 1440 × 720</span></figcaption></figure>
+      </div>
+    </div>
+    <div class="cp-back-end"><a class="cp-back-btn" href="../index.html#works"><span aria-hidden="true">←</span> Назад</a></div>
+  </div>
+</section>
+
+<section class="cp-sec">
+  <div class="cp-in">
+    <div class="cp-fit" data-a>
+      <span class="cp-fit-k">Подойдёт, если</span>
+      <p>Нужен баннер под конкретное место на сайте или на уличном экране, а подходящей фотосъёмки нет. Или нужно, чтобы товар оказался в сцене, которую сложно или дорого снимать.</p>
+    </div>
+    <div class="cp-head" data-a><h2 class="cp-h2">Что входит</h2></div>
+    <div class="inc">
+      <div class="inc-card" data-a style="--sd:0.00s"><span class="inc-n">01</span><h3>Товар в нужной сцене</h3><p>Вписываю товар в фон с помощью ИИ: свет, тени и масштаб как на настоящей съёмке.</p></div>
+      <div class="inc-card" data-a style="--sd:0.12s"><span class="inc-n">02</span><h3>Фирменный стиль</h3><p>Цвета, шрифты и графика бренда, чтобы баннер узнавался и сочетался с сайтом.</p></div>
+      <div class="inc-card" data-a style="--sd:0.00s"><span class="inc-n">03</span><h3>Инфографика</h3><p>Выгоды, характеристики и УТП, которые считываются за секунду.</p></div>
+      <div class="inc-card" data-a style="--sd:0.12s"><span class="inc-n">04</span><h3>Точный размер</h3><p>Делаю баннер под любой, в том числе нестандартный, размер блока на сайте, а при необходимости адаптирую под соцсети, товарные карточки маркетплейсов и другие площадки.</p></div>
+      <div class="inc-card" data-a style="--sd:0.00s"><span class="inc-n">05</span><h3>Цифровые билборды Wildberries</h3><p>Баннеры для уличных цифровых экранов с учётом строгих требований площадки к размерам и оформлению.</p></div>
+      <div class="inc-card" data-a style="--sd:0.12s"><span class="inc-n">06</span><h3>Креативы для контекстной рекламы (РСЯ)</h3><p>Графические объявления для Рекламной сети Яндекса в нужных форматах и по требованиям Директа к изображениям.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cp-sec">
+  <div class="cp-in">
+    <div class="cp-head" data-a><h2 class="cp-h2">Как проходит работа</h2></div>
+    <div class="steps">
+      <div class="step" data-a style="--sd:0.00s"><span class="step-n">01</span><h3>Бриф</h3><p>Обсуждаем задачу, площадки, сроки и бюджет. Собираю референсы и всё, что знаю о бренде.</p></div>
+      <div class="step" data-a style="--sd:0.12s"><span class="step-n">02</span><h3>Концепция и правки</h3><p>Показываю направление до основной работы, вношу правки, пока результат не попадёт в задачу.</p></div>
+      <div class="step" data-a style="--sd:0.24s"><span class="step-n">03</span><h3>Готовые файлы</h3><p>Отдаю финальные материалы в нужных форматах и размерах, готовые к публикации или печати.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cp-cta">
+  <div class="slanted" aria-hidden="true"></div>
+  <div class="cp-cta-in" data-a>
+    <h2 class="cp-cta-t">Нужно так же для вашего бизнеса?</h2>
+    <p>Расскажите о задаче, а я предложу формат, сроки и стоимость</p>
+    <div class="cp-act">
+      <a class="btn btn-yellow" href="../index.html#contacts">Обсудить проект</a>
+      <a class="btn btn-ghost" href="https://t.me/PavlenkoDesign" target="_blank" rel="noopener">Написать в Telegram</a>
+    </div>
+  </div>
+</section>
+
+<section class="cp-sec cp-sec-last">
+  <div class="cp-in">
+    <div class="cp-nav">
+      <a class="cpn prev" href="screens.html" data-a>
+        <span class="cpn-img"><img src="../img/site/cover-screens.webp" alt="" loading="lazy"></span>
+        <span class="cpn-txt"><span>← Предыдущее</span><b>Анимация и видео для экранов</b></span>
+      </a>
+      <a class="cpn next" href="ai-photo.html" data-a style="--sd:.12s">
+        <span class="cpn-img"><img src="../img/site/cover-ai-photo.webp" alt="" loading="lazy"></span>
+        <span class="cpn-txt"><span>Следующее →</span><b>ИИ-фотосессия товара</b></span>
+      </a>
+    </div>
+    <div class="cp-all"><a class="btn btn-ghost" href="../index.html#works">Все направления</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="ftr-in">
+    <div class="ftr-top">
+      <div>
+        <a href="../index.html#home" class="logo logo-stack" aria-label="На главную">
+          <img class="logo-mark" src="../img/site/logo-mark.webp" width="148" height="128" alt="">
+          <img class="logo-word" src="../img/site/logo-word.webp" width="757" height="40" alt="Ekaterina Pavlenko">
+        </a>
+        <p class="ftr-about">Фото, видео, брендинг и сайты без команды, съёмок и огромных бюджетов</p>
+        <div class="ftr-soc">
+          <a class="soc" href="https://www.instagram.com/pavlenko.designer?stkn=Nnczd3dibHQ3M2N4" target="_blank" rel="noopener"><span class="soc-ico star"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span><span><b>pavlenko.designer</b><span>Instagram</span></span></a>
+          <a class="soc" href="https://www.instagram.com/pavlenko.aicreator?stkn=MWUwZm9oNmxqNGowcA==" target="_blank" rel="noopener"><span class="soc-ico star"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span><span><b>pavlenko.aicreator</b><span>ИИ-фотосессии, Instagram</span></span></a>
+          <a class="soc" href="https://vk.ru/pavlenkodesign" target="_blank" rel="noopener"><span class="soc-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 7h3.3c.2 3.9 1.9 5.6 3.2 5.9V7h3.2v3.4c1.3-.1 2.6-1.6 3.1-3.4h3.2c-.5 2.3-2.2 4-3.4 4.7 1.2.6 3 2 3.8 4.8h-3.5c-.6-1.9-2.1-3.3-3.2-3.5v3.5h-.4c-5.9 0-9.3-4-9.5-9.5z"/></svg></span><span><b>pavlenkodesign</b><span>ВКонтакте</span></span></a>
+          <a class="soc" href="https://t.me/pavlenko_ai_designer" target="_blank" rel="noopener"><span class="soc-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3l-3 14.2c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.2c-.3.3-.5.4-.9.4l.3-4.6 8.6-7.8c.4-.3-.1-.5-.6-.2L7.3 12.6 2.9 11.2c-1-.3-1-1 .2-1.5l17.2-6.6c.8-.3 1.5.2 1.6 1.2z"/></svg></span><span><b>pavlenko_ai_designer</b><span>Telegram-канал с работами</span></span></a>
+          <a class="soc" href="https://max.ru/u/f9LHodD0cOJ9LDviFaVUxQ3Y5zEOc8aZ0_IA0S6VTB_PkId6Go8qa5_39j4" target="_blank" rel="noopener"><span class="soc-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M6 17.13A8.6 8.6 0 1 1 9.66 19.68C7.9 20.45 5.6 20.95 4.1 20.7C5.1 19.8 5.7 18.6 6 17.13ZM17.4 11.4A4.3 4.3 0 1 0 8.8 11.4A4.3 4.3 0 1 0 17.4 11.4Z"/></svg></span><span><b>MAX</b><span>+7 918 064-53-95</span></span></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="title-small">Разделы</h4>
+        <nav class="ftr-menu">
+          <a href="../index.html#home">Главная</a>
+          <a href="../index.html#works">Портфолио</a>
+          <a href="../index.html#services">Услуги</a>
+          <a href="../index.html#about">Обо мне</a>
+          <a href="../index.html#price">Прайс</a>
+          <a href="../index.html#faq">FAQ</a>
+          <a href="../index.html#contacts">Контакты</a>
+        </nav>
+      </div>
+      <div>
+        <h4 class="title-small">Документы</h4>
+        <div class="ftr-legal">
+          <a href="../privacy.html">Политика обработки персональных данных</a>
+          <a href="../consent.html">Согласие на обработку персональных данных</a>
+          <a href="../cookies.html">Согласие на обработку cookies</a>
+        </div>
+      </div>
+    </div>
+    <p class="ftr-note">* Instagram принадлежит компании Meta, деятельность которой признана экстремистской и запрещена на территории Российской Федерации</p>
+  </div>
+</footer>
+
+<button class="pgup" id="pgup" aria-label="Наверх">
+  <svg viewBox="0 0 43.97 43.97"><defs><linearGradient id="pgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b56cff"/><stop offset=".55" stop-color="#8a3ffc"/><stop offset="1" stop-color="#6a2cf0"/></linearGradient></defs><rect width="43.97" height="43.97" rx="21.98" fill="url(#pgg)"/><line x1="21.98" y1="16.9" x2="31.5" y2="26.4" stroke="#fff" stroke-linecap="round" stroke-width="3.4"/><line x1="21.98" y1="16.9" x2="12.46" y2="26.4" stroke="#fff" stroke-linecap="round" stroke-width="3.4"/></svg>
+</button>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Просмотр изображения">
+  <button class="lb-x" id="lb-x" aria-label="Закрыть">✕</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Предыдущее">‹</button>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Следующее">›</button>
+  <img id="lb-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+  <div class="lb-count" id="lb-count"></div>
+</div>
+
+<div class="cookie" id="cookie" role="region" aria-label="Уведомление о cookie">
+  <div class="cookie-in">
+    <p>Сайт использует файлы cookie, чтобы корректно работать и собирать обезличенную статистику. Подробнее в <a href="../cookies.html">согласии на обработку cookies</a>.</p>
+    <div class="cookie-act">
+      <button class="cookie-btn alt" id="cookie-no">Только необходимые</button>
+      <button class="cookie-btn" id="cookie-ok">Принять</button>
+    </div>
+  </div>
+</div>
+
+<script src="../js/case.js?v=6"></script>
+<script>
+document.querySelectorAll(".ab").forEach(function(ab) {
+    var strip = ab.querySelector(".ab-strip"), slides = Array.prototype.slice.call(strip.querySelectorAll(".ab-slide"));
+    var prev = ab.querySelector(".ab-prev"), next = ab.querySelector(".ab-next"), count = ab.querySelector(".ab-count");
+    function cur() {
+        var l = strip.scrollLeft, best = 0;
+        slides.forEach(function(s, i) {
+            if (s.offsetLeft - strip.offsetLeft <= l + 8) best = i;
+        });
+        return best;
+    }
+    function go(i) {
+        i = Math.max(0, Math.min(slides.length - 1, i));
+        strip.scrollTo({
+            left: slides[i].offsetLeft - strip.offsetLeft
+        });
+    }
+    function upd() {
+        var c = cur();
+        count.textContent = c + 1 + " / " + slides.length;
+        prev.disabled = strip.scrollLeft < 4;
+        next.disabled = strip.scrollLeft + strip.clientWidth > strip.scrollWidth - 4;
+    }
+    prev.addEventListener("click", function() {
+        go(cur() - 1);
+    });
+    next.addEventListener("click", function() {
+        go(cur() + 1);
+    });
+    strip.addEventListener("scroll", upd, {
+        passive: true
+    });
+    addEventListener("resize", upd);
+    upd();
+});
+
+</script>
+<script>
+document.querySelectorAll(".pr-cover").forEach(function(box) {
+    var cover = box.querySelector(".b-cover"), img = cover.querySelector("img"), num = cover.querySelector(".lg-n");
+    var slides = [ cover ].concat(Array.prototype.slice.call(box.querySelectorAll(".ps-card[hidden]")));
+    var n = slides.length, cur = 0;
+    if (n < 2) {
+        box.querySelectorAll(".pr-arr").forEach(function(a) {
+            a.remove();
+        });
+        if (num) num.remove();
+        return;
+    }
+    function go(i) {
+        cur = (i + n) % n;
+        var src = slides[cur].getAttribute("data-show");
+        cover.classList.add("swap");
+        var pre = new Image;
+        pre.onload = pre.onerror = function() {
+            img.src = src;
+            cover.classList.remove("swap");
+        };
+        pre.src = src;
+        num.textContent = cur + 1 + " / " + n;
+    }
+    box.querySelector(".pr-prev").addEventListener("click", function() {
+        go(cur - 1);
+    });
+    box.querySelector(".pr-next").addEventListener("click", function() {
+        go(cur + 1);
+    });
+    cover.addEventListener("click", function(e) {
+        if (cur === 0) return;
+        e.stopImmediatePropagation();
+        slides[cur].click();
+    }, true);
+    var sx = null;
+    cover.addEventListener("touchstart", function(e) {
+        sx = e.touches[0].clientX;
+    }, {
+        passive: true
+    });
+    cover.addEventListener("touchend", function(e) {
+        if (sx === null) return;
+        var dx = e.changedTouches[0].clientX - sx;
+        sx = null;
+        if (Math.abs(dx) > 40) {
+            e.preventDefault();
+            go(cur + (dx < 0 ? 1 : -1));
+        }
+    });
+});
+
+</script>
+<script src="../js/analytics.js" defer></script>
+</body>
+</html>
